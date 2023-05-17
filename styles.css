@@ -1,0 +1,40 @@
+footer{
+    background-color: rgb(64, 79, 218);
+}
+header{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(120, 156, 223);
+    margin: 0px;
+    padding: 0px;
+    font-size: medium;
+}
+ol ul {
+    font-size: medium;
+    
+}
+nav ul {
+    list-style: none;
+    font-size: large;
+    display: flex;
+
+}
+li{
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+    color: #f7f6f6;
+    font-size: medium;
+}
+c{
+    border-style:solid ;
+    border-color:rgb(233, 224, 224) ;
+    font-weight: 400;
+    border-radius: 30px;
+    font-size: larger;
+
+}
