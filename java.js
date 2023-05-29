@@ -36,8 +36,15 @@
            greetings.textContent = greeting;
        });
        
-       dots[i].className.replace(" active", "");
-    
-     slides[slideIndex-1].style.display = "block";  
-     dots[slideIndex-1].className += " active";
+       var fields = {};
+       document.addEventListener("DOMContentLoaded", function() {
+        fields.name = document.getElementById('Name');
+        fields.surname= document.getElementById('surName');
+        
+       })
+          function formSubmission(){
+              if(fields.value !=="" && fields.value !== null){
+                  alert('You have successfully submitted your details');
+              }
 
+            }
