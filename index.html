@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <header> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link
     rel="stylesheet" href="https://unpkg.com/swiper-bundle.;in.css/">
+    
+   <script src="java.js"></script>
     <nav>
         <ul>
             <li> <a href="index.html"><c>Homepage</c></a></li>
@@ -16,9 +18,14 @@
             <li> <a href="about.html"><c>About</c></a></li>
              </ul>
     </nav>
-   
-</header>
+    <link rel="stylesheet"
+href="htpps://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    />
+
+    </header>
 <body>
+    <div class="greeting">DEMO TEXT</div>
+    
     <div class="container">
     <div class="swiper">
      <div class="swiper-wrapper">
@@ -27,31 +34,31 @@
        <div class="swiper-slide"><img src="pinkflower.jpg" width="300px"/><br>></div>
        <div class="swiper-slide"><img src="purpleflower.jpg" width="300px"/><br>></div>
        </div>
+
        <div class="swiper-pagination"></div>
+
        <div class="swipper-button-prev"></div>
        <div class="swiper-button-next"></div>
+
     </div>
     </div>
    
     <script scr="hpps://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new swiper('.swiper',{
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },
-            loop:true,
-            pagination: {
-            el:'.swiper-pagination',
-            clicable: true,
-        },
-        navigation: {
-            nextEL: 'swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
+<form>
+    Firstname:<br>
+    <input type="text" name="firstname"><br>
+Surname:<br>
+    <input type="text" name="surname"><br>
 
-    </script>
+Gender:<br>
+    <input type="radio" name="gender" value="male"
+    checked> Male<br> 
+    <input type="radio" name="gender" value="female"
+    checked> Female<br>
+    <input type="submit" value="submit">
+
+    
+    </form>
 
     
    <h1>AISHAH CHITONYA</h1> 
