@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>author</title>
-</head>
-<body>
-<author>Aishah</author>
-</body>
-</html>
+AuthorName:Aishah Chitonya
+AuthorRegNumber: BedICT0421
+PhoneNumber:0981290300
