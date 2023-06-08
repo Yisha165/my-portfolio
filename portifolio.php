@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<?php include 'my login.php' ?>
+
 <html>
     <head>
     <title>Myportifolio</title>
