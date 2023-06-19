@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php include 'my login.php' ?>
+
 <html lang="en">
 <head>
     <title>Contacts</title>
@@ -19,9 +19,27 @@
         </ul>
     </nav>
 </header>
+
+
 <body>
-    <input type="text" id="searchBar" placeholder="Search...." size="100">
-  <button id="searchButton" onclick="doSearch">Search</button><br>
+  
+  <input type="text"
+  placeholder="Search..." name="Search">
+  <button type="submit">Search</button><br>
+
+  <img src="Aishah.jpg" width="300px"/>
+
+    <p id="projects">PROJECTS</p><br>
+    <img name="slide" width="350" height="500"><br>
+    <p> pink flowers</p>
+      <img src="pinkflower.jpg" height="500" width="350"><br>
+      <p> roses</p>
+      <img src="roses.jpg" width="300px"/><br>
+      <p> Sun flowers</p>
+      <img src="sunflower.jpg" width="300px"/><br>
+
+  
+    
   <img src="purpleflower.jpg" height="500" width="350"><br>
       
      

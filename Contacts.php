@@ -22,20 +22,17 @@
 <body>
   
 <form>
-    <label for="name" id="Name"> Firstname:</label><br>
-    <input type="text" name="firstname" placeholder="Enter Firstname" required><br>
-<label for="name" id="surName"> Surname:</label><br>
-    <input type="text" name="surname" required><br>
-
-Gender:<br>
-    <input type="radio" name="gender" value="male"
-    checked> Male<br> 
-    <input type="radio" name="gender" value="female"
-    checked> Female<br>
-    <input type="submit" value="submit">
-
-    
-    </form> 
+    <input type="text" name="surname" placeholder="Surname" required><br>
+    <input type="text" name="firstname" placeholder="Firstname" required><br>
+    <input type="email" name="email" placeholder="Email" required><br>
+    <input type="password" name="password" placeholder="Password" required><br>
+    <label for="gender">Gender:</label><br>
+    <select name="gender" id="gender" required><br>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <button type="submit">Submit</button><br>
+</form> 
 </body>  <Footer>
     <a href="http://facebook.com">facebook:aishahchitonyafacebook.com</a><br>
     <a href="http://email.com"></a>"Email:jamesaishah3@gmail.com<br>

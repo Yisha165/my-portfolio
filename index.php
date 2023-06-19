@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <?php include `mylogin.php` ?>
     <title>Homepage</title>
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,20 +36,17 @@
     
    
 <form>
-    Firstname:<br>
-    <input type="text" name="firstname" placeholder="Enter Firstname" required><br>
-Surname:<br>
-    <input type="text" name="surname"><br>
-
-Gender:<br>
-    <input type="radio" name="gender" value="male"
-    checked> Male<br> 
-    <input type="radio" name="gender" value="female"
-    checked> Female<br>
-    <input type="submit" value="submit">
-
-    
-    </form>
+    <input type="text" name="surname" placeholder="Surname" required><br>
+    <input type="text" name="firstname" placeholder="Firstname" required><br>
+    <input type="email" name="email" placeholder="Email" required><br>
+    <input type="password" name="password" placeholder="Password" required><br>
+    <label for="gender">Gender:</label><br>
+    <select name="gender" id="gender" required><br>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <button type="submit">Submit</button><br>
+</form>
 
  <h2 id="skills">SKILLS<h2>
     <p>
