@@ -1,7 +1,9 @@
 <!DOCTYPE html>
+<?php include `connect.php` ?>
+
 <html lang="en">
 <head>
-    <?php include `mylogin.php` ?>
+    
     <title>Homepage</title>
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -1,7 +1,4 @@
 <?php
-$servername="localhost";
-$username="root";
-$password="";
 
 $mysql_query("select*mylogin",$connection);
 $connect=mysql_connect("localhost","root","");
