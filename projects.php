@@ -30,20 +30,30 @@
   <img src="Aishah.jpg" width="300px"/>
 
     <p id="projects">PROJECTS</p><br>
+    
     <img name="slide" width="350" height="500"><br>
-    <p> pink flowers</p>
+   <p> pink flowers</p>
       <img src="pinkflower.jpg" height="500" width="350"><br>
       <p> roses</p>
       <img src="roses.jpg" width="300px"/><br>
       <p> Sun flowers</p>
-      <img src="sunflower.jpg" width="300px"/><br>
+<?php
+$query="SELECT Name of Projects, Description FROM projects";
+$result=mysqli_query($mylogin,$query);
+if(!$results){
+die ("Error:".mysqli_error($mylogin));
+}else{
+  while($row=mysqli_fetch_assoc($result)){
+    echo $row ['Name of Projects'];
+    echo $row ['Description'];
+  }
+}
+?>
 
-  
-    
-  <img src="purpleflower.jpg" height="500" width="350"><br>
-      
-     
-  <img src="roses.jpg" height="500" width="350"><br>
+      <img src="sunflower.jpg" width="300px"/><br>
+ <img src="purpleflower.jpg" height="500" width="350"><br>
+       <img src="roses.jpg" height="500" width="350"><br>
+
   <cel>+265981290300</cel>  
   <div class="progress-Bar" >
     <div class="progress">  </div>
